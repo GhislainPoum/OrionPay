@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".PhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bgphone"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/logo"
+            app:srcCompat="@drawable/pic" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:padding="17dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/txtsms_phone"
+        android:text="@string/txtsms_phone" />
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+        <Spinner
+            android:id="@+id/country"
+            android:background="@drawable/bgnumber"
+            android:layout_width="90dp"
+            android:layout_height="70dp"/>
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:textSize="13sp"
+            android:hint="@string/phone"
+            android:background="@drawable/bgnumber"
+            android:autofillHints=""
+            android:paddingStart="20dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"
+            tools:targetApi="o" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_phone"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:paddingBottom="8dp"
+        tools:ignore="RtlHardcoded"
+        android:background="@drawable/bg_btn"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>

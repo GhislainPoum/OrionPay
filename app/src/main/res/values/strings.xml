@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Dashbord</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_tools">Settings</string>
+    <string name="logo">logo</string>
+    <string name="circle">circle</string>
+    <string name="version">version</string>
+    <string name="copy">copy</string>
+    <string name="app_nam">OrionPay</string>
+    <string name="txtsms">OrionPay  will sent an SMS</string>
+    <string name="next">NEXT</string>
+    <string name="phone">Enter Phone number</string>
+    <string name="code">Enter code</string>
+    <string name="login_id">Your ID</string>
+    <string name="password">Password</string>
+    <string name="start">start</string>
+    <string name="menu_orion">OrionPay</string>
+    <string name="menu_exit">Exit</string>
+    <string name="pay">Payment Mode</string>
+
+    <string name="notpay">Payment notifications</string>
+    <string name="report">Transaction report</string>
+    <string name="analys">Report Analysis</string>
+    <string name="orang">orang</string>
+    <string name="methpay">Payment methode</string>
+    <string name="txtlogin">Enter your ID account and password to unlock</string>
+    <string name="help">Help</string>
+    <string name="title_activity_notification">Payment notifications</string>
+    <string name="title_activity_transaction">Transaction report</string>
+    <string name="title_activity_analysis">Report analysis</string>
+    <string name="date">11h</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_about">About OrionPay</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+    </string>
+    <string name="title_activity_register">Registration</string>
+
+
+    <string name="customer">add a new customer</string>
+    <string name="list">view list of all customers</string>
+    <string name="starts">Add</string>
+    <string name="passwords">Password</string>
+    <string name="name">Full Name</string>
+    <string name="phones">Phone Number</string>
+    <string name="compagny">Name of the agency</string>
+    <string name="add">Add a new client / agency</string>
+    <string name="city">City / District</string>
+    <string name="email">Email</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="login">Log in</string>
+    <string name="title_activity_payment_notification">Payment notifications</string>
+    <string name="title_activity_payment_analysis">Report analysis</string>
+    <string name="title_activity_app_setting">Settings</string>
+    <string name="title_activity_app_about">OrionPay</string>
+    <string name="mention_legal">
+        "Mention Legale.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+    </string>
+    <string name="title_activity_orange">Pay with Orange Money</string>
+    <string name="title_activity_momo">Pay with Momo</string>
+    <string name="dote">. . .</string>
+
+    <string name="text_english" translatable="false">English</string>
+    <string name="text_french" translatable="false">" Français"</string>
+    <string name="payer_maintenant">Pay now</string>
+    <string name="title_activity_gmail">Payment notifications</string>
+    <string name="choose_pay">Choose the payment method</string>
+    <string name="choose_pic">Choose an image</string>
+    <string name="addi">upload</string>
+    <string name="imgUp">Image uploaded !!!</string>
+    <string name="load">Loading ...</string>
+    <string name="error">Failed</string>
+    <string name="title_activity_option_pay">Add Images</string>
+    <string name="pass_maintenant">Switch to Payment</string>
+    <string name="con_maintenant">Carry on</string>
+    <string name="txtAddImage">Add Images</string>
+    <string name="txtImg">Add images associated with the services performed</string>
+    <string name="title_activity_sms"></string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_sms">Enter SMS</string>
+    <string name="send_sms">Send Sms</string>
+
+
+    <string name="contact">Contact</string>
+    <string name="make_a_call">Make a call</string>
+    <string name="phone_number">15555215556</string>
+    <string name="dial_number">"Phone Status: DIALING: "</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="message">Enter message here</string>
+    <string name="btnsend">Send SMS</string>
+    <string name="phonesms">Enter Phone Number</string>
+    <string name="login_phone">continue</string>
+    <string name="txtsms_phone">Enter your phone number</string>
+    <string name="contrat">Contrat</string>
+    <string name="about">About</string>
+
+
+</resources>

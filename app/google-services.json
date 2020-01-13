@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "586430667479",
+    "firebase_url": "https://orionpay-83e64.firebaseio.com",
+    "project_id": "orionpay-83e64",
+    "storage_bucket": "orionpay-83e64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586430667479:android:de39fd1db6ca73adefae92",
+        "android_client_info": {
+          "package_name": "com.poum.orionadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586430667479-qjt7ppilskueioe421j07e2ohldkcurh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poum.orionadmin",
+            "certificate_hash": "3bd8b1d86ed87a0e3b520648250b82bec4f6f8b7"
+          }
+        },
+        {
+          "client_id": "586430667479-c9puc946gedlmdainrca7nggcs9unm15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKk60qE3AETEYNWoxY9Ap-jsPVJsLTraY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586430667479-c9puc946gedlmdainrca7nggcs9unm15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586430667479:android:e5c3e4fb46b2275befae92",
+        "android_client_info": {
+          "package_name": "com.poum.orionpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586430667479-229t42u6svvt7qfhng53l0d9qj09hper.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poum.orionpay",
+            "certificate_hash": "26578f0a0d208af2ae8792e08244db543ead3e2b"
+          }
+        },
+        {
+          "client_id": "586430667479-j23fh48mcgfhs43lo979oidmhfc5jgm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poum.orionpay",
+            "certificate_hash": "3bd8b1d86ed87a0e3b520648250b82bec4f6f8b7"
+          }
+        },
+        {
+          "client_id": "586430667479-c9puc946gedlmdainrca7nggcs9unm15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKk60qE3AETEYNWoxY9Ap-jsPVJsLTraY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586430667479-c9puc946gedlmdainrca7nggcs9unm15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

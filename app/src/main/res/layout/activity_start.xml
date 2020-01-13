@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_start"
+    tools:context=".StartActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="132dp"
+        android:layout_height="133dp"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_nam"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="38sp"
+        android:textColor="#F0F0F0"/>
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/circle"
+        app:srcCompat="@drawable/circle"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/version"
+        android:layout_width="116dp"
+        android:layout_height="27dp"
+        android:contentDescription="@string/version"
+        app:srcCompat="@drawable/version"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/copy"
+        android:contentDescription="@string/copy" />
+</LinearLayout>

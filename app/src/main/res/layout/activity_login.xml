@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bgphone"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/logo"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:padding="17dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/txtsms"
+        android:text="@string/txtlogin" />
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:hint="@string/email"
+            android:background="@drawable/bgnumber"
+            android:autofillHints=""
+            android:paddingStart="20dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"
+            tools:targetApi="o"
+            android:drawableStart="@drawable/ic_email" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/ic_password"
+            android:hint="@string/password"
+            android:background="@drawable/bgnumber"
+            android:autofillHints=""
+            android:paddingStart="20dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"
+            tools:targetApi="o"
+            android:drawableStart="@drawable/ic_password" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn"
+        android:paddingBottom="8dp"
+        android:text="@string/login"
+        android:textColor="#fff"
+        tools:ignore="RtlHardcoded" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>

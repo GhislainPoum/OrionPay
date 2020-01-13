@@ -1,0 +1,5 @@
+<root>
+    <item name='com.mapbox.android.core.permissions.PermissionsManager'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
